@@ -1,17 +1,8 @@
 # .streamlit/config.toml
 
-[general]
-# Optional: Set your app's name here
-# headless = true
-# enableCORS = false
-# enableXsrfProtection = false
-
 [server]
 headless = true
 enableCORS = false
 port = 8501
 enableXsrfProtection = false
 fileWatcherType = "poll"
-
-[runtime]
-pythonVersion = "3.10"
