@@ -18,9 +18,6 @@ venv/
 PHEME-RNR/trained_models/classification_models_text_only/pytorch_model.bin
 PHEME-RNR/trained_models/classification_models_text_comments/pytorch_model.bin
 
-# Ignore any .h5 models (optional if large)
-*.h5
-
 # Ignore system files
 .DS_Store
 Thumbs.db
