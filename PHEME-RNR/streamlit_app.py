@@ -2,9 +2,9 @@
 import streamlit as st
 from model import predict
 
-st.write("server.fileWatcherType:", st.get_option("server.fileWatcherType"))
-
 st.set_page_config(page_title="Rumor Classifier", layout="centered")
+
+st.write("server.fileWatcherType:", st.get_option("server.fileWatcherType"))
 
 st.title("🕵️ Rumor Detection App")
 
